@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            /* gap: 30rem; */
+            /* padding: 0 auto; */
+
+        }
+
+        .subcontainer {
+            display: flex;
+            flex-direction: column;
+            gap: 27rem;
+            padding-top: 20rem;
+            /* padding: 0 auto; */
+        }
+
+        .head1 {
+            /* justify-self: center; */
+            align-self: center;
+            background-color: black;
+            color: white;
+            padding: 0.5rem 1.2rem;
+            font-size: 1.5rem;
+        }
+
+        .para {
+            background-color: black;
+            color: white;
+            padding: 1.5rem 1.2rem;
+            padding-right: 1.6rem;
+            /* overflow-x: hidden; */
+        }
+
+        #first {
+            /* padding-top: 20rem; */
+            /* background-image: src(back22.jpg); */
+            background: url('https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        #second {
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20210531/pngtree-business-cream-reforestation-project-proposal-image_723246.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+
+        }
+
+        #third {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxbeR2LCbe3nJMD-HTcrk6EiAwBP2Ir6LKEz9ozAeMQ&s');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 1st sub container  -->
+        <div class="subcontainer" id="first">
+            <h1 class="head1">
+                PRIYANSHU
+            </h1>
+            <p class="para">
+                Thankyou for showing interest,
+                here is a quick story of me and
+                this website. My programming
+                journey started back in 2019,
+                few months before I started
+                studying CSE in LNCT Bhopal.
+                I am currently in my second
+                year and doing Technical
+                Content Writing Internship
+                at GeeksForGeeks. I like
+                coding all kind of problems
+                from the very basic like adding
+                numbers to the complex ones like
+                competitive programming problems.
+                I love making projects and games.
+                Infact this website is one of my
+                Web Development Projects which
+                is built using HTML and CSS.<br>
+                <br>Languages known : C Language,
+                C++, JAVA, Python, JavaScript,
+                MySQL.<br> IT Constructs : Data
+                Structures and Algorithm, OOP,
+                HTML, CSS, LINUX, and Git & GitHub.
+            </p>
+        </div>
+
+        <!-- 2nd sub container  -->
+        <div class="subcontainer" id="second">
+            <h1 class="head1">
+                PROJECTS
+            </h1>
+            <p class="para">
+                Calendar ☀
+                Tic-Tac-Toe ☀
+                Quiz Game ☀
+                Survey Form ☀
+                Chat Bot in C ☀
+                Tribute Webpage ☀
+                Portfolio Website ☀
+                Guess the Number ☀
+                Rock Paper Scissor ☀
+                To-Do List using JS ☀
+                Notes Taker using JS ☀
+                BMI Calculator using JS ☀
+                Loan Calculator using JS ☀
+                Travel Management System ☀
+                Random Password Generator ☀
+                Different Management Systems
+            </p>
+        </div>
+
+
+
+        <!-- 3rd sub container  -->
+        <div class="subcontainer" id="third">
+            <h1 class="head1">
+                ACHIEVEMENTS
+            </h1>
+            <p class="para">
+                Technical Content Writer
+                Intern at GeeksForGeeks ☀
+                Microsoft Learn Student
+                Ambassador - Beta ☀
+                Participant in GirlScript Summer
+                of Code 2021 ☀
+                Mentored HackTX Hackathon
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
